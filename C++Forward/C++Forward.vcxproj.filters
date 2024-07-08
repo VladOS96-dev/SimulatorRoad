@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Line">
+      <UniqueIdentifier>{ef974220-7396-4eff-8db6-a33b0989ea83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\CollisionLine">
+      <UniqueIdentifier>{fbe9f9ed-68db-4bb0-9440-a1ca7fd95aee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Line">
+      <UniqueIdentifier>{3fddbba0-9280-4c5e-bb56-c84be3a3ef5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Model">
+      <UniqueIdentifier>{1b53d708-d6da-4ed1-bab2-4ab5c1870227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\CollisionLine">
+      <UniqueIdentifier>{6f0e56d0-e487-47cb-ae16-153c0f2da4dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Model">
+      <UniqueIdentifier>{04548195-d3f3-4571-81ae-95aebb31174d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\UpdateHadler">
+      <UniqueIdentifier>{f4bc20b4-489d-42ed-b27a-bd39e2f7fc40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\StateCar">
+      <UniqueIdentifier>{b8b4710f-4e3f-4380-927a-5006cc2004bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\CarState">
+      <UniqueIdentifier>{80eb2fbc-14fe-414c-b8d1-235e1713edee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Command">
+      <UniqueIdentifier>{b07c422c-f90c-44f0-9668-706431b501d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\UpdateHandler">
+      <UniqueIdentifier>{89813926-b32f-4e5f-ab2b-f6304753fccf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Файлы ресурсов\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="SolidLine.cpp">
+      <Filter>Файлы ресурсов\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="DashedLine.cpp">
+      <Filter>Файлы ресурсов\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="LineCollisionStrategy.cpp">
+      <Filter>Файлы ресурсов\CollisionLine</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Файлы ресурсов\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>Файлы ресурсов\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Road.cpp">
+      <Filter>Файлы ресурсов\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Display.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="CarMovingState.cpp">
+      <Filter>Файлы ресурсов\CarState</Filter>
+    </ClCompile>
+    <ClCompile Include="CarStationaryState.cpp">
+      <Filter>Файлы ресурсов\CarState</Filter>
+    </ClCompile>
+    <ClCompile Include="WrongDirectionHandler.cpp">
+      <Filter>Файлы ресурсов\UpdateHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="StopRotateCommand.hpp">
+      <Filter>Файлы заголовков\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="LineCrossingHandler.cpp">
+      <Filter>Файлы ресурсов\UpdateHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="TurningHandler.cpp">
+      <Filter>Файлы ресурсов\UpdateHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateHandler.cpp">
+      <Filter>Файлы ресурсов\UpdateHandler</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="View.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionStrategy.hpp">
+      <Filter>Файлы заголовков\CollisionLine</Filter>
+    </ClInclude>
+    <ClInclude Include="LineCollisionStrategy.hpp">
+      <Filter>Файлы заголовков\CollisionLine</Filter>
+    </ClInclude>
+    <ClInclude Include="DashedLine.hpp">
+      <Filter>Файлы заголовков\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.hpp">
+      <Filter>Файлы заголовков\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="SolidLine.hpp">
+      <Filter>Файлы заголовков\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.hpp">
+      <Filter>Файлы заголовков\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.hpp">
+      <Filter>Файлы заголовков\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Road.hpp">
+      <Filter>Файлы заголовков\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="LineCrossingHandler.hpp">
+      <Filter>Файлы заголовков\UpdateHadler</Filter>
+    </ClInclude>
+    <ClInclude Include="TurningHandler.hpp">
+      <Filter>Файлы заголовков\UpdateHadler</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateHandler.hpp">
+      <Filter>Файлы заголовков\UpdateHadler</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Display.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="CarState.hpp">
+      <Filter>Файлы заголовков\StateCar</Filter>
+    </ClInclude>
+    <ClInclude Include="CarMovingState.hpp">
+      <Filter>Файлы заголовков\StateCar</Filter>
+    </ClInclude>
+    <ClInclude Include="CarStationaryState.hpp">
+      <Filter>Файлы заголовков\StateCar</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.hpp">
+      <Filter>Файлы заголовков\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveForwardCommand.hpp">
+      <Filter>Файлы заголовков\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="RotateLeftCommand.hpp">
+      <Filter>Файлы заголовков\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="RotateRightCommand.hpp">
+      <Filter>Файлы заголовков\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="BrakingCommand.hpp">
+      <Filter>Файлы заголовков\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="WrongDirectionHandler.hpp">
+      <Filter>Файлы заголовков\UpdateHadler</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementInertiaCommand.hpp">
+      <Filter>Файлы заголовков\Command</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
